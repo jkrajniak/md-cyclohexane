@@ -1,0 +1,13 @@
+#
+# A mixture of water and urea
+#
+
+tolerance 2.5
+filetype pdb
+output mixture.pdb
+add_box_sides 1.0
+
+structure cyclohexane.pdb 
+  number 1000
+  inside box 0. 0. 0. 100. 100. 100. 
+end structure
